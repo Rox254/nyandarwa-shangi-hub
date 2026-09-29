@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nyandarua Fresh Potatoes | Shangi Variety — 50kg @ KSh 2,800</title>
+<meta name="description" content="Premium Shangi potatoes from Nyandarua County, Kenya. 50kg bag at KSh 2,800. Fresh from the farm. Call +254 718 625 691.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --g900:#17300c; --g800:#2d5016; --g700:#3f6b1f; --g600:#558b2f;
+  --gold:#e0a800; --gold-l:#ffc93c;
+  --cream:#fdf8ee; --cream2:#f6ecd8; --brown:#6b4c2a;
+  --text:#2b2b2b; --muted:#6b6b6b; --white:#fff;
+  --sh:0 10px 30px rgba(45,80,22,.10);
+  --sh-lg:0 20px 50px rgba(45,80,22,.18);
+  --r:18px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  color:var(--text); background:var(--cream); line-height:1.65;
+  -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+img,svg{display:block;max-width:100%;}
+a{text-decoration:none;color:inherit;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px;}
+
+/* ---------- TOP BAR ---------- */
+.topbar{background:var(--g900);color:#d9e8c8;font-size:.8rem;padding:9px 0;}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;}
+.topbar span{display:flex;align-items:center;gap:7px;}
+.topbar a{color:var(--gold-l);font-weight:600;}
+
+/* ---------- HEADER ---------- */
+header.nav{
+  position:sticky;top:0;z-index:400;
+  background:rgba(253,248,238,.96);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid #e6dbc0;
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:13px 0;gap:18px;}
+.logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.05rem;color:var(--g800);}
+.logo-mark{
+  width:44px;height:44px;border-radius:13px;flex-shrink:0;
+  background:linear-gradient(145deg,var(--g700),var(--g900));
+  display:grid;place-items:center;
+  box-shadow:0 4px 12px rgba(45,80,22,.3);
+}
+.logo small{display:block;font-size:.63rem;font-weight:500;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;}
+
+.nav-links{display:flex;gap:4px;align-items:center;font-size:.9rem;font-weight:500;}
+.nav-links a{
+  color:#3f4a35;padding:9px 14px;border-radius:9px;
+  transition:background .2s,color .2s;
+}
+.nav-links a:hover{background:#eef4e2;color:var(--g700);}
+.nav-links a.active{background:var(--g800);color:#fff;}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  padding:13px 26px;border-radius:50px;font-weight:600;font-size:.92rem;
+  border:none;cursor:pointer;transition:transform .2s,box-shadow .2s;
+  font-family:inherit;
+}
+.btn-primary{background:linear-gradient(135deg,var(--g600),var(--g800));color:#fff;box-shadow:0 6px 18px rgba(63,107,31,.35);}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(63,107,31,.45);}
+.btn-gold{background:linear-gradient(135deg,var(--gold-l),var(--gold));color:#3a2a00;box-shadow:0 6px 18px rgba(224,168,0,.4);}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(224,168,0,.5);}
+.btn-outline{background:transparent;color:var(--g800);border:2px solid var(--g700);}
+.btn-outline:hover{background:var(--g800);color:#fff;}
+.nav-cta{display:inline-flex;}
+
+/* ---------- HAMBURGER ---------- */
+.burger{
+  display:none;width:46px;height:46px;border-radius:12px;
+  background:#eef4e2;border:none;cursor:pointer;
+  flex-direction:column;justify-content:center;align-items:center;gap:5px;
+  flex-shrink:0;transition:background .2s;
+}
+.burger:hover{background:#e2edd0;}
+.burger span{
+  display:block;width:22px;height:2.5px;border-radius:3px;
+  background:var(--g800);transition:transform .3s,opacity .25s;
+}
+.burger.open span:nth-child(1){transform:translateY(7.5px) rotate(45deg);}
+.burger.open span:nth-child(2){opacity:0;}
+.burger.open span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg);}
+
+/* ---------- MOBILE MENU ---------- */
+.mobile-menu{
+  position:fixed;inset:0;z-index:390;
+  background:linear-gradient(165deg,#17300c 0%,#2d5016 100%);
+  display:flex;flex-direction:column;
+  padding:88px 26px 40px;overflow-y:auto;
+  transform:translateX(100%);
+  transition:transform .38s cubic-bezier(.4,0,.2,1);
+}
+.mobile-menu.open{transform:translateX(0);}
+.mm-head{
+  position:absolute;top:0;left:0;right:0;height:70px;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 22px;border-bottom:1px solid rgba(255,255,255,.1);
+}
+.mm-head span{color:#fff;font-weight:700;font-size:.95rem;}
+.mm-close{
+  width:42px;height:42px;border-radius:11px;border:none;cursor:pointer;
+  background:rgba(255,255,255,.12);display:grid;place-items:center;color:#fff;
+  transition:background .2s;
+}
+.mm-close:hover{background:rgba(255,255,255,.22);}
+.mm-links{display:flex;flex-direction:column;margin-top:14px;}
+.mm-links a{
+  color:#fff;font-size:1.25rem;font-weight:600;
+  padding:17px 6px;border-bottom:1px solid rgba(255,255,255,.1);
+  display:flex;align-items:center;justify-content:space-between;
+  transition:color .2s,padding-left .25s;
+}
+.mm-links a::after{content:'→';opacity:.4;font-size:1rem;transition:transform .25s,opacity .25s;}
+.mm-links a:hover,.mm-links a:active{color:var(--gold-l);padding-left:14px;}
+.mm-links a:hover::after{opacity:1;transform:translateX(4px);}
+.mm-links a.active{color:var(--gold-l);}
+.mm-foot{margin-top:auto;padding-top:32px;display:flex;flex-direction:column;gap:12px;}
+.mm-foot .btn{width:100%;}
+.mm-foot small{color:#9db888;font-size:.8rem;text-align:center;display:block;margin-top:6px;}
+body.locked{overflow:hidden;}
+
+/* ---------- PAGES ---------- */
+.page{display:none;}
+.page.active{display:block;animation:fadeUp .45s ease both;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+
+section{padding:76px 0;}
+.sec-head{text-align:center;max-width:680px;margin:0 auto 50px;}
+.kicker{font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--g600);margin-bottom:12px;}
+h2{font-size:clamp(1.6rem,3.1vw,2.35rem);font-weight:800;color:var(--g900);line-height:1.2;letter-spacing:-.015em;margin-bottom:15px;}
+.sec-head p{color:var(--muted);font-size:1rem;}
+
+/* ---------- HERO ---------- */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 500px at 88% 12%,#e8f3d6 0%,transparent 60%),
+    radial-gradient(700px 500px at 4% 92%,#fdf0d0 0%,transparent 62%),
+    linear-gradient(170deg,#fdf8ee 0%,#f4f7e8 100%);
+  padding:64px 0 84px;
+}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center;}
+.pill{
+  display:inline-flex;align-items:center;gap:9px;background:#e6f2d4;color:var(--g800);
+  padding:8px 17px;border-radius:50px;font-size:.78rem;font-weight:600;
+  letter-spacing:.03em;margin-bottom:20px;border:1px solid #cfe3b3;
+}
+.dot{width:8px;height:8px;border-radius:50%;background:#6abf2e;box-shadow:0 0 0 4px rgba(106,191,46,.2);}
+h1{font-size:clamp(2rem,4.4vw,3.25rem);line-height:1.12;font-weight:800;color:var(--g900);letter-spacing:-.02em;margin-bottom:19px;}
+h1 em{font-style:normal;background:linear-gradient(135deg,var(--gold),#c98a00);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.hero p.lead{font-size:1.04rem;color:#4e5545;max-width:540px;margin-bottom:28px;}
+.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-bottom:32px;}
+.price-tag{
+  display:inline-flex;align-items:center;gap:18px;background:#fff;
+  border:2px dashed #cfe0ae;border-radius:var(--r);padding:15px 24px;box-shadow:var(--sh);
+}
+.price-tag .amount{font-size:2rem;font-weight:800;color:var(--g800);line-height:1;}
+.price-tag .per{font-size:.8rem;color:var(--muted);display:block;margin-top:5px;}
+.price-tag .divider{width:1px;height:44px;background:#e6e0cd;}
+.price-tag .save{font-size:.79rem;font-weight:600;color:#b8860b;}
+
+.hero-visual{position:relative;display:grid;place-items:center;}
+.hero-blob{
+  position:absolute;width:116%;aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle at 40% 35%,#eaf5d8,#d8ebbb 55%,#c9e2a4 100%);z-index:0;
+}
+.hero-visual .stack{position:relative;z-index:1;width:100%;max-width:470px;filter:drop-shadow(0 24px 30px rgba(60,80,30,.22));}
+.float-badge{
+  position:absolute;z-index:2;background:#fff;border-radius:14px;padding:11px 16px;
+  box-shadow:var(--sh-lg);font-size:.77rem;font-weight:600;color:var(--g800);
+  display:flex;align-items:center;gap:9px;
+}
+.float-badge.b1{top:5%;left:-3%;animation:float 5s ease-in-out infinite;}
+.float-badge.b2{bottom:7%;right:-3%;animation:float 5s ease-in-out infinite .8s;}
+.fb-icon{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:#eef7e0;flex-shrink:0;}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-11px);}}
+
+/* ---------- TRUST ---------- */
+.trust{background:var(--g800);color:#dcecc8;padding:22px 0;}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;}
+.trust-item{font-size:.81rem;font-weight:500;display:flex;flex-direction:column;align-items:center;gap:5px;}
+.trust-item strong{color:var(--gold-l);font-size:1.14rem;font-weight:700;display:block;}
+
+/* ---------- CARDS / GRIDS ---------- */
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:40px;align-items:center;}
+
+.card{
+  background:#fff;border-radius:20px;overflow:hidden;
+  box-shadow:var(--sh);transition:transform .3s,box-shadow .3s;
+}
+.card:hover{transform:translateY(-6px);box-shadow:var(--sh-lg);}
+.card-img{background:linear-gradient(150deg,#f4f9e9,#e6f0d2);padding:20px;display:grid;place-items:center;min-height:210px;}
+.card-body{padding:18px 22px 24px;}
+.card-body h4{font-size:1rem;font-weight:700;color:var(--g900);margin-bottom:5px;}
+.card-body p{font-size:.85rem;color:var(--muted);}
+
+/* ---------- FEATURES ---------- */
+.features{display:flex;flex-direction:column;gap:20px;}
+.feature{display:flex;gap:16px;align-items:flex-start;}
+.feature-icon{
+  width:46px;height:46px;border-radius:13px;flex-shrink:0;display:grid;place-items:center;
+  background:linear-gradient(145deg,#eef7e0,#dcecc4);color:var(--g700);
+}
+.feature h4{font-size:.98rem;font-weight:700;color:var(--g900);margin-bottom:3px;}
+.feature p{font-size:.88rem;color:var(--muted);line-height:1.6;}
+
+/* ---------- PRICING ---------- */
+.pricing{background:var(--g900);color:#e9f3dd;position:relative;overflow:hidden;}
+.pricing::before{content:'';position:absolute;top:-140px;right:-100px;width:420px;height:420px;border-radius:50%;background:rgba(224,168,0,.09);}
+.pricing::after{content:'';position:absolute;bottom:-180px;left:-120px;width:460px;height:460px;border-radius:50%;background:rgba(255,255,255,.035);}
+.pricing .sec-head{position:relative;z-index:1;}
+.pricing .kicker{color:var(--gold-l);}
+.pricing h2{color:#fff;}
+.pricing .sec-head p{color:#b9cfa4;}
+.price-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative;z-index:1;align-items:stretch;}
+.p-card{
+  background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.14);
+  border-radius:22px;padding:32px 26px;display:flex;flex-direction:column;
+  transition:transform .3s,background .3s;position:relative;
+}
+.p-card:hover{transform:translateY(-6px);background:rgba(255,255,255,.09);}
+.p-card.featured{background:#fff;color:var(--text);border:2px solid var(--gold);box-shadow:0 26px 60px rgba(0,0,0,.3);transform:scale(1.03);}
+.p-card.featured:hover{transform:scale(1.03) translateY(-6px);}
+.p-badge{
+  position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));color:#3a2a00;
+  font-size:.68rem;font-weight:800;letter-spacing:.09em;padding:6px 16px;
+  border-radius:50px;text-transform:uppercase;white-space:nowrap;
+}
+.p-name{font-size:1.03rem;font-weight:700;margin-bottom:6px;}
+.p-card.featured .p-name{color:var(--g900);}
+.p-desc{font-size:.82rem;color:#b9cfa4;margin-bottom:20px;min-height:38px;}
+.p-card.featured .p-desc{color:var(--muted);}
+.p-price{font-size:2.3rem;font-weight:800;line-height:1;margin-bottom:4px;color:var(--gold-l);}
+.p-card.featured .p-price{color:var(--g800);}
+.p-price sup{font-size:1rem;font-weight:600;vertical-align:super;margin-right:2px;}
+.p-unit{font-size:.79rem;color:#9db888;margin-bottom:22px;}
+.p-card.featured .p-unit{color:var(--muted);}
+.p-features{list-style:none;display:flex;flex-direction:column;gap:11px;margin-bottom:26px;flex:1;}
+.p-features li{font-size:.85rem;display:flex;gap:10px;align-items:flex-start;color:#c9dcb6;}
+.p-card.featured .p-features li{color:#4e5545;}
+.check{width:18px;height:18px;border-radius:50%;flex-shrink:0;margin-top:2px;background:rgba(224,168,0,.22);display:grid;place-items:center;font-size:.7rem;color:var(--gold-l);}
+.p-card.featured .check{background:#e6f2d4;color:var(--g700);}
+.p-card .btn{width:100%;}
+.price-note{text-align:center;margin-top:34px;font-size:.85rem;color:#9db888;position:relative;z-index:1;}
+.price-note strong{color:var(--gold-l);}
+
+/* ---------- REVIEWS ---------- */
+.reviews{background:#fff;}
+.review-summary{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;margin-bottom:44px;}
+.score{font-size:2.9rem;font-weight:800;color:var(--g900);line-height:1;}
+.stars{color:var(--gold);font-size:1.1rem;letter-spacing:2px;}
+.review-summary .meta{font-size:.85rem;color:var(--muted);}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.review{
+  background:var(--cream);border:1px solid #ebe1c8;border-radius:18px;padding:26px;
+  display:flex;flex-direction:column;gap:13px;transition:transform .3s,box-shadow .3s,border-color .3s;
+}
+.review:hover{transform:translateY(-5px);box-shadow:var(--sh);border-color:#d9cba6;}
+.review p{font-size:.89rem;color:#4e5545;line-height:1.7;flex:1;}
+.reviewer{display:flex;align-items:center;gap:12px;padding-top:13px;border-top:1px solid #ebe1c8;}
+.avatar{width:42px;height:42px;border-radius:50%;flex-shrink:0;display:grid;place-items:center;font-weight:700;font-size:.88rem;color:#fff;}
+.a1{background:linear-gradient(135deg,#6abf2e,#3f6b1f);}
+.a2{background:linear-gradient(135deg,#e0a800,#b8860b);}
+.a3{background:linear-gradient(135deg,#558b2f,#2d5016);}
+.a4{background:linear-gradient(135deg,#c98a00,#8a6100);}
+.a5{background:linear-gradient(135deg,#7cb342,#558b2f);}
+.a6{background:linear-gradient(135deg,#d4a017,#a67c00);}
+.reviewer-info strong{display:block;font-size:.87rem;color:var(--g900);}
+.reviewer-info span{font-size:.75rem;color:var(--muted);}
+
+/* ---------- LOCATION ---------- */
+.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;}
+.loc-card{background:#fff;border-radius:22px;padding:32px;box-shadow:var(--sh);}
+.loc-list{list-style:none;display:flex;flex-direction:column;gap:22px;}
+.loc-list li{display:flex;gap:15px;align-items:flex-start;}
+.loc-ico{width:44px;height:44px;border-radius:12px;flex-shrink:0;display:grid;place-items:center;background:linear-gradient(145deg,#eef7e0,#dcecc4);color:var(--g700);}
+.loc-list h4{font-size:.92rem;font-weight:700;color:var(--g900);margin-bottom:3px;}
+.loc-list p{font-size:.87rem;color:var(--muted);line-height:1.6;}
+.loc-list a{color:var(--g700);font-weight:600;}
+.map-box{border-radius:22px;overflow:hidden;box-shadow:var(--sh-lg);background:#e8f0d8;min-height:380px;display:grid;place-items:center;}
+
+/* ---------- CTA BAND ---------- */
+.cta-band{background:linear-gradient(135deg,var(--g700),var(--g900));color:#fff;padding:62px 0;position:relative;overflow:hidden;}
+.cta-band::before{content:'';position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:600px;height:300px;border-radius:50%;background:rgba(224,168,0,.1);}
+.cta-inner{position:relative;z-index:1;text-align:center;max-width:660px;margin:0 auto;}
+.cta-inner h2{color:#fff;margin-bottom:13px;}
+.cta-inner p{color:#c9dcb6;margin-bottom:28px;font-size:.98rem;}
+.cta-actions{display:flex;gap:13px;justify-content:center;flex-wrap:wrap;}
+
+/* ---------- CONTACT ---------- */
+.contact{background:#fff;}
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;}
+.contact-info{display:flex;flex-direction:column;gap:25px;}
+.c-item{display:flex;gap:16px;align-items:flex-start;}
+.c-ico{width:48px;height:48px;border-radius:14px;flex-shrink:0;display:grid;place-items:center;background:linear-gradient(145deg,var(--g700),var(--g900));color:#fff;}
+.c-item h4{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600;margin-bottom:4px;}
+.c-item a,.c-item p{font-size:1rem;font-weight:600;color:var(--g900);line-height:1.5;}
+.c-item a:hover{color:var(--g600);}
+form{background:var(--cream);border:1px solid #ebe1c8;border-radius:22px;padding:30px;display:flex;flex-direction:column;gap:17px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:15px;}
+.field{display:flex;flex-direction:column;gap:7px;}
+.field label{font-size:.81rem;font-weight:600;color:var(--g900);}
+.field input,.field select,.field textarea{
+  font-family:inherit;font-size:.91rem;padding:13px 15px;
+  border:1.5px solid #ddd0b0;border-radius:11px;background:#fff;color:var(--text);
+  transition:border-color .2s,box-shadow .2s;
+}
+.field input:focus,.field select:focus,.field textarea:focus{
+  outline:none;border-color:var(--g600);box-shadow:0 0 0 4px rgba(85,139,47,.13);
+}
+.field textarea{resize:vertical;min-height:94px;}
+
+/* ---------- FOOTER ---------- */
+footer{background:var(--g900);color:#a8c08f;padding:52px 0 0;}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:38px;padding-bottom:40px;}
+.foot-brand{display:flex;align-items:center;gap:11px;margin-bottom:15px;}
+.foot-brand span{font-weight:800;color:#fff;font-size:1.02rem;}
+footer p{font-size:.86rem;line-height:1.75;}
+footer h5{color:#fff;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:15px;font-weight:700;}
+footer ul{list-style:none;display:flex;flex-direction:column;gap:10px;}
+footer ul a{font-size:.86rem;transition:color .2s;cursor:pointer;}
+footer ul a:hover{color:var(--gold-l);}
+.foot-bottom{
+  border-top:1px solid rgba(255,255,255,.1);padding:20px 0;font-size:.79rem;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+
+/* ---------- FLOAT WA ---------- */
+.wa-float{
+  position:fixed;bottom:22px;right:22px;z-index:350;
+  width:58px;height:58px;border-radius:50%;background:#25D366;
+  display:grid;place-items:center;box-shadow:0 8px 26px rgba(37,211,102,.45);
+  transition:transform .25s;
+}
+.wa-float:hover{transform:scale(1.09);}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:1024px){
+  .nav-links{display:none;}
+  .nav-cta{display:none;}
+  .burger{display:flex;}
+  .hero-grid,.grid-2,.loc-grid,.contact-grid{grid-template-columns:1fr;gap:42px;}
+  .hero-visual{order:-1;}
+  .trust-grid{grid-template-columns:repeat(2,1fr);gap:24px;}
+  .grid-3,.review-grid,.price-cards{grid-template-columns:repeat(2,1fr);}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:30px;}
+  .p-card.featured{transform:none;}
+  .p-card.featured:hover{transform:translateY(-6px);}
+}
+@media(max-width:620px){
+  section{padding:54px 0;}
+  .grid-3,.review-grid,.price-cards,.form-row{grid-template-columns:1fr;}
+  .trust-grid{grid-template-columns:1fr 1fr;}
+  .foot-grid{grid-template-columns:1fr;}
+  .hero{padding:42px 0 60px;}
+  .float-badge{font-size:.68rem;padding:9px 12px;}
+  .float-badge.b1{left:-1%;}
+  .float-badge.b2{right:-1%;}
+  .price-tag{flex-wrap:wrap;gap:12px;}
+  .price-tag .divider{display:none;}
+  .foot-bottom{justify-content:center;text-align:center;}
+  .topbar{font-size:.72rem;}
+  .topbar .wrap{justify-content:center;text-align:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ SVG SYMBOL LIBRARY ============ -->
+<svg style="display:none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="skinA" cx="34%" cy="26%" r="78%">
+    <stop offset="0%" stop-color="#fff6e3"/>
+    <stop offset="28%" stop-color="#f6e3bc"/>
+    <stop offset="66%" stop-color="#e3c48d"/>
+    <stop offset="100%" stop-color="#c49b5c"/>
+  </radialGradient>
+  <radialGradient id="skinB" cx="38%" cy="30%" r="80%">
+    <stop offset="0%" stop-color="#fff9ea"/>
+    <stop offset="32%" stop-color="#f8e8c8"/>
+    <stop offset="70%" stop-color="#e8cd98"/>
+    <stop offset="100%" stop-color="#cda468"/>
+  </radialGradient>
+  <radialGradient id="skinC" cx="30%" cy="24%" r="82%">
+    <stop offset="0%" stop-color="#fdf3de"/>
+    <stop offset="30%" stop-color="#f2ddb4"/>
+    <stop offset="68%" stop-color="#dcbb84"/>
+    <stop offset="100%" stop-color="#bd9257"/>
+  </radialGradient>
+  <linearGradient id="flesh" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#fffdf6"/>
+    <stop offset="100%" stop-color="#f8f0dc"/>
+  </linearGradient>
+  <linearGradient id="leafG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#8cc63f"/>
+    <stop offset="100%" stop-color="#3f6b1f"/>
+  </linearGradient>
+  <linearGradient id="sackG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e3c68c"/>
+    <stop offset="100%" stop-color="#c9a463"/>
+  </linearGradient>
+  <linearGradient id="chipG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffd873"/>
+    <stop offset="100%" stop-color="#e0a800"/>
+  </linearGradient>
+</defs>
+
+<!-- SHANGI POTATO — main, detailed -->
+<symbol id="shangi" viewBox="0 0 340 260">
+  <ellipse cx="170" cy="240" rx="118" ry="15" fill="#2d5016" opacity=".13"/>
+  <path d="M58,136 C44,82 92,32 166,28 C244,24 302,64 308,120
+           C314,176 268,224 188,228 C110,232 72,190 58,136 Z" fill="url(#skinA)"/>
+  <path d="M58,136 C44,82 92,32 166,28 C244,24 302,64 308,120
+           C314,176 268,224 188,228 C110,232 72,190 58,136 Z"
+        fill="none" stroke="#b8914e" stroke-width="1.1" opacity=".3"/>
+  <!-- eyes (Shangi: shallow, pinkish) -->
+  <ellipse cx="118" cy="80" rx="12" ry="8" fill="#e2b0a6" opacity=".9" transform="rotate(-16 118 80)"/>
+  <ellipse cx="118" cy="80" rx="5" ry="3.2" fill="#cb9287" opacity=".55" transform="rotate(-16 118 80)"/>
+  <ellipse cx="218" cy="106" rx="10.5" ry="7" fill="#e2b0a6" opacity=".85" transform="rotate(12 218 106)"/>
+  <ellipse cx="218" cy="106" rx="4.4" ry="2.8" fill="#cb9287" opacity=".5" transform="rotate(12 218 106)"/>
+  <ellipse cx="158" cy="172" rx="9.5" ry="6.4" fill="#e2b0a6" opacity=".75" transform="rotate(-7 158 172)"/>
+  <ellipse cx="86" cy="158" rx="8.5" ry="5.8" fill="#e2b0a6" opacity=".68" transform="rotate(20 86 158)"/>
+  <ellipse cx="258" cy="158" rx="7.5" ry="5.2" fill="#e2b0a6" opacity=".62" transform="rotate(-22 258 158)"/>
+  <ellipse cx="196" cy="66" rx="6.5" ry="4.4" fill="#e2b0a6" opacity=".55" transform="rotate(8 196 66)"/>
+  <!-- skin texture -->
+  <g fill="#c9a463" opacity=".28">
+    <circle cx="142" cy="52" r="1.6"/><circle cx="176" cy="46" r="1.3"/>
+    <circle cx="246" cy="82" r="1.5"/><circle cx="272" cy="122" r="1.4"/>
+    <circle cx="134" cy="128" r="1.5"/><circle cx="104" cy="108" r="1.3"/>
+    <circle cx="230" cy="190" r="1.6"/><circle cx="168" cy="204" r="1.3"/>
+    <circle cx="96" cy="196" r="1.4"/><circle cx="200" cy="140" r="1.2"/>
+  </g>
+  <!-- highlights -->
+  <ellipse cx="124" cy="80" rx="56" ry="33" fill="#fff" opacity=".38" transform="rotate(-24 124 80)"/>
+  <ellipse cx="102" cy="70" rx="22" ry="12" fill="#fff" opacity=".45" transform="rotate(-27 102 70)"/>
+  <ellipse cx="246" cy="188" rx="26" ry="11" fill="#fff" opacity=".16" transform="rotate(-14 246 188)"/>
+</symbol>
+
+<!-- SHANGI — second angle -->
+<symbol id="shangi2" viewBox="0 0 340 260">
+  <ellipse cx="170" cy="240" rx="112" ry="14" fill="#2d5016" opacity=".13"/>
+  <path d="M66,146 C52,92 100,40 174,38 C250,36 300,74 302,130
+           C304,186 262,226 182,226 C104,226 80,200 66,146 Z" fill="url(#skinB)"/>
+  <path d="M66,146 C52,92 100,40 174,38 C250,36 300,74 302,130
+           C304,186 262,226 182,226 C104,226 80,200 66,146 Z"
+        fill="none" stroke="#b8914e" stroke-width="1.1" opacity=".28"/>
+  <ellipse cx="132" cy="84" rx="11" ry="7.4" fill="#e2b0a6" opacity=".85" transform="rotate(-12 132 84)"/>
+  <ellipse cx="132" cy="84" rx="4.6" ry="3" fill="#cb9287" opacity=".5" transform="rotate(-12 132 84)"/>
+  <ellipse cx="236" cy="128" rx="10" ry="6.8" fill="#e2b0a6" opacity=".8" transform="rotate(16 236 128)"/>
+  <ellipse cx="164" cy="178" rx="8.5" ry="5.6" fill="#e2b0a6" opacity=".68"/>
+  <ellipse cx="94" cy="150" rx="8" ry="5.4" fill="#e2b0a6" opacity=".62" transform="rotate(22 94 150)"/>
+  <ellipse cx="210" cy="68" rx="7" ry="4.8" fill="#e2b0a6" opacity=".55" transform="rotate(-8 210 68)"/>
+  <g fill="#c9a463" opacity=".26">
+    <circle cx="158" cy="58" r="1.5"/><circle cx="222" cy="96" r="1.4"/>
+    <circle cx="118" cy="128" r="1.4"/><circle cx="256" cy="158" r="1.3"/>
+    <circle cx="184" cy="200" r="1.5"/><circle cx="108" cy="196" r="1.3"/>
+  </g>
+  <ellipse cx="128" cy="68" rx="50" ry="29" fill="#fff" opacity=".36" transform="rotate(-22 128 68)"/>
+  <ellipse cx="110" cy="60" rx="20" ry="10" fill="#fff" opacity=".42" transform="rotate(-25 110 60)"/>
+</symbol>
+
+<!-- CROSS SECTION -->
+<symbol id="shangi-cut" viewBox="0 0 260 260">
+  <ellipse cx="130" cy="244" rx="80" ry="11" fill="#2d5016" opacity=".12"/>
+  <circle cx="130" cy="128" r="104" fill="#d8b87e"/>
+  <circle cx="130" cy="128" r="97" fill="url(#flesh)"/>
+  <circle cx="130" cy="128" r="97" fill="none" stroke="#eee2c6" stroke-width="1.6"/>
+  <circle cx="130" cy="128" r="104" fill="none" stroke="#c9a463" stroke-width="1.2" opacity=".5"/>
+  <ellipse cx="100" cy="94" rx="36" ry="23" fill="#fff" opacity=".6" transform="rotate(-25 100 94)"/>
+  <ellipse cx="164" cy="168" rx="22" ry="13" fill="#f0e6cd" opacity=".55"/>
+  <ellipse cx="172" cy="94" rx="13" ry="8" fill="#f2ead6" opacity=".5"/>
+  <circle cx="94" cy="168" r="4" fill="#f0e6cd" opacity=".6"/>
+  <circle cx="152" cy="78" r="3" fill="#f0e6cd" opacity=".55"/>
+</symbol>
+
+<!-- HEAP OF POTATOES -->
+<symbol id="heap" viewBox="0 0 480 320">
+  <ellipse cx="240" cy="298" rx="200" ry="18" fill="#2d5016" opacity=".12"/>
+  <use href="#shangi2" x="10" y="110" width="230" height="176" transform="rotate(-10 125 198)"/>
+  <use href="#shangi" x="230" y="120" width="240" height="184" transform="rotate(8 350 212)"/>
+  <use href="#shangi" x="110" y="40" width="240" height="184" transform="rotate(-3 230 132)"/>
+  <use href="#shangi2" x="290" y="30" width="180" height="138" transform="rotate(14 380 99)" opacity=".95"/>
+  <use href="#shangi2" x="0" y="30" width="170" height="130" transform="rotate(-16 85 95)" opacity=".92"/>
+</symbol>
+
+<!-- 50KG SACK -->
+<symbol id="sack" viewBox="0 0 280 330">
+  <ellipse cx="140" cy="318" rx="98" ry="11" fill="#2d5016" opacity=".13"/>
+  <path d="M66,78 L214,78 L232,296 C232,308 223,313 212,313 L68,313 C57,313 48,308 48,296 Z" fill="url(#sackG)"/>
+  <path d="M66,78 L214,78 L217,106 L63,106 Z" fill="#c9a463"/>
+  <path d="M66,78 L214,78 L211,92 L69,92 Z" fill="#edd6a3"/>
+  <path d="M80,76 Q140,48 200,76 Q140,64 80,76 Z" fill="#b8914e"/>
+  <path d="M80,76 Q140,98 200,76 Q140,88 80,76 Z" fill="#a67c3f" opacity=".55"/>
+  <path d="M64,132 L216,132" stroke="#c9a463" stroke-width="2" stroke-dasharray="7 7" opacity=".7"/>
+  <path d="M62,176 L218,176" stroke="#c9a463" stroke-width="2" stroke-dasharray="7 7" opacity=".5"/>
+  <rect x="82" y="196" width="116" height="70" rx="10" fill="#fdf8ee" opacity=".95"/>
+  <rect x="82" y="196" width="116" height="70" rx="10" fill="none" stroke="#b8914e" stroke-width="1.6"/>
+  <text x="140" y="224" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="19" font-weight="800" fill="#2d5016">SHANGI</text>
+  <text x="140" y="243" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="13" font-weight="600" fill="#6b4c2a">50 KG NET</text>
+  <text x="140" y="258" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="10" font-weight="500" fill="#8a7a5a">NYANDARUA • KENYA</text>
+  <use href="#shangi" x="88" y="24" width="106" height="82" transform="rotate(-6 141 65)"/>
+</symbol>
+
+<!-- LEAF -->
+<symbol id="leaf" viewBox="0 0 80 120">
+  <path d="M40,118 C40,80 40,42 40,4" stroke="#3f6b1f" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <path d="M40,42 C22,34 10,18 14,4 C32,8 42,22 40,42 Z" fill="url(#leafG)"/>
+  <path d="M40,66 C58,58 70,42 66,28 C48,32 38,46 40,66 Z" fill="url(#leafG)"/>
+  <path d="M40,90 C24,84 12,70 16,56 C32,60 42,72 40,90 Z" fill="url(#leafG)" opacity=".9"/>
+</symbol>
+
+<!-- FLOWER -->
+<symbol id="flower" viewBox="0 0 100 100">
+  <g fill="#f8f4e6" stroke="#e5dfc8" stroke-width="1">
+    <ellipse cx="50" cy="22" rx="12" ry="17"/>
+    <ellipse cx="78" cy="50" rx="17" ry="12"/>
+    <ellipse cx="50" cy="78" rx="12" ry="17"/>
+    <ellipse cx="22" cy="50" rx="17" ry="12"/>
+    <ellipse cx="70" cy="30" rx="12" ry="14" transform="rotate(45 70 30)"/>
+    <ellipse cx="30" cy="30" rx="12" ry="14" transform="rotate(-45 30 30)"/>
+    <ellipse cx="70" cy="70" rx="12" ry="14" transform="rotate(-45 70 70)"/>
+    <ellipse cx="30" cy="70" rx="12" ry="14" transform="rotate(45 30 70)"/>
+  </g>
+  <circle cx="50" cy="50" r="15" fill="#ffd54f"/>
+  <circle cx="50" cy="50" r="8" fill="#f9a825"/>
+</symbol>
+
+<!-- FARM SCENE -->
+<symbol id="farm" viewBox="0 0 460 300">
+  <rect width="460" height="300" fill="#eaf4d8"/>
+  <circle cx="380" cy="56" r="34" fill="#ffe082" opacity=".85"/>
+  <path d="M0,150 L90,72 L180,150 Z" fill="#bcd99a"/>
+  <path d="M120,158 L215,66 L310,158 Z" fill="#a8cd82"/>
+  <path d="M250,152 L340,80 L430,152 Z" fill="#bcd99a"/>
+  <rect y="150" width="460" height="150" fill="#c9e2a4"/>
+  <g stroke="#8fbf5e" stroke-width="2.5" opacity=".7">
+    <path d="M20,300 C30,250 40,210 60,175"/>
+    <path d="M90,300 C100,250 110,210 130,175"/>
+    <path d="M160,300 C170,250 180,210 200,175"/>
+    <path d="M230,300 C240,250 250,210 270,175"/>
+    <path d="M300,300 C310,250 320,210 340,175"/>
+    <path d="M370,300 C380,250 390,210 410,175"/>
+  </g>
+  <g fill="#6ea83f" opacity=".85">
+    <ellipse cx="60" cy="180" rx="14" ry="9"/><ellipse cx="130" cy="180" rx="14" ry="9"/>
+    <ellipse cx="200" cy="180" rx="14" ry="9"/><ellipse cx="270" cy="180" rx="14" ry="9"/>
+    <ellipse cx="340" cy="180" rx="14" ry="9"/><ellipse cx="410" cy="180" rx="14" ry="9"/>
+  </g>
+  <use href="#shangi" x="180" y="196" width="110" height="84"/>
+</symbol>
+
+<!-- CHIPS -->
+<symbol id="chips" viewBox="0 0 300 240">
+  <ellipse cx="150" cy="222" rx="106" ry="14" fill="#2d5016" opacity=".13"/>
+  <path d="M40,190 L260,190 L238,218 L62,218 Z" fill="#fdf8ee" stroke="#e6dbc0" stroke-width="1.6"/>
+  <g fill="url(#chipG)" stroke="#c98a00" stroke-width="1.2">
+    <rect x="88" y="96" width="20" height="96" rx="5" transform="rotate(-16 98 144)"/>
+    <rect x="118" y="80" width="20" height="112" rx="5" transform="rotate(-7 128 136)"/>
+    <rect x="148" y="72" width="20" height="120" rx="5" transform="rotate(2 158 132)"/>
+    <rect x="178" y="84" width="20" height="108" rx="5" transform="rotate(11 188 138)"/>
+    <rect x="206" y="102" width="20" height="90" rx="5" transform="rotate(20 216 147)"/>
+    <rect x="66" y="112" width="20" height="80" rx="5" transform="rotate(-26 76 152)"/>
+  </g>
+  <use href="#shangi" x="196" y="14" width="94" height="72" transform="rotate(14 243 50)"/>
+</symbol>
+
+<!-- MASH -->
+<symbol id="mash" viewBox="0 0 300 240">
+  <ellipse cx="150" cy="222" rx="100" ry="13" fill="#2d5016" opacity=".13"/>
+  <ellipse cx="150" cy="140" rx="112" ry="78" fill="#fdf8ee" stroke="#e6dbc0" stroke-width="2"/>
+  <path d="M62,132 C86,88 214,88 238,132 C232,172 68,172 62,132 Z" fill="url(#flesh)"/>
+  <ellipse cx="128" cy="120" rx="42" ry="22" fill="#fff" opacity=".75"/>
+  <path d="M96,140 Q150,124 204,142" stroke="#efe6d0" stroke-width="3" fill="none" opacity=".8"/>
+  <path d="M88,118 Q120,104 150,116" stroke="#efe6d0" stroke-width="3" fill="none" opacity=".7"/>
+  <use href="#shangi" x="16" y="130" width="86" height="66" transform="rotate(-14 59 163)"/>
+</symbol>
+
+<!-- WASHED / GRADED -->
+<symbol id="graded" viewBox="0 0 300 220">
+  <rect x="0" y="140" width="300" height="80" fill="#e4d7b8"/>
+  <rect x="0" y="140" width="300" height="8" fill="#c9b98f"/>
+  <use href="#shangi" x="20" y="56" width="140" height="108" transform="rotate(-6 90 110)"/>
+  <use href="#shangi2" x="140" y="70" width="130" height="100" transform="rotate(8 205 120)"/>
+  <ellipse cx="70" cy="152" rx="8" ry="5" fill="#fff" opacity=".5"/>
+  <ellipse cx="120" cy="146" rx="6" ry="4" fill="#fff" opacity=".45"/>
+</symbol>
+</svg>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="wrap">
+    <span>📍 Nyandarua County, Kenya — Farm‑fresh potatoes</span>
+    <span>📞 <a href="tel:+254718625691">+254 718 625 691</a></span>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#home" class="logo" data-link>
+      <span class="logo-mark">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <ellipse cx="12" cy="13" rx="8.5" ry="6.2" fill="#e0a800"/>
+          <ellipse cx="9.4" cy="11.2" rx="1.6" ry="1.2" fill="#c98a7e"/>
+          <ellipse cx="14.6" cy="14.6" rx="1.4" ry="1" fill="#c98a7e"/>
+          <ellipse cx="9.6" cy="9.8" rx="3.2" ry="1.9" fill="#fff" opacity=".45"/>
+        </svg>
+      </span>
+      <span>Nyandarua Fresh Potatoes
+        <small>Shangi Variety Specialists</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="deskNav">
+      <a href="#home" data-link>Home</a>
+      <a href="#about" data-link>About Shangi</a>
+      <a href="#gallery" data-link>Gallery</a>
+      <a href="#pricing" data-link>Pricing</a>
+      <a href="#reviews" data-link>Reviews</a>
+      <a href="#contact" data-link>Contact</a>
+    </nav>
+
+    <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20Shangi%20potatoes%20(50kg%20%40%20KSh%202%2C800)"
+       class="btn btn-primary nav-cta" target="_blank" rel="noopener">💬 Order on WhatsApp</a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-head">
+    <span>Menu</span>
+    <button class="mm-close" id="mmClose" aria-label="Close menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+
+  <nav class="mm-links" id="mobNav">
+    <a href="#home" data-link>Home</a>
+    <a href="#about" data-link>About Shangi</a>
+    <a href="#gallery" data-link>Gallery</a>
+    <a href="#pricing" data-link>Pricing</a>
+    <a href="#reviews" data-link>Reviews</a>
+    <a href="#contact" data-link>Contact</a>
+  </nav>
+
+  <div class="mm-foot">
+    <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20Shangi%20potatoes%20(50kg%20%40%20KSh%202%2C800)"
+       class="btn btn-gold" target="_blank" rel="noopener">💬 Order on WhatsApp</a>
+    <a href="tel:+254718625691" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.5);">📞 +254 718 625 691</a>
+    <small>Nyandarua County, Kenya · 50kg — KSh 2,800</small>
+  </div>
+</div>
+
+<main>
+
+<!-- ============================================================
+     PAGE: HOME
+============================================================ -->
+<div class="page active" id="page-home">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="pill"><span class="dot"></span> Harvested This Week in Nyandarua</span>
+        <h1>Premium <em>Shangi Potatoes</em> From the Nyandarua Highlands</h1>
+        <p class="lead">
+          Grown in the rich volcanic soils of Nyandarua County at 2,400m above sea level.
+          Firm, creamy‑white flesh that boils, mashes and fries to perfection — delivered
+          fresh to your shop, hotel or home anywhere in Kenya.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20Shangi%20potatoes%20(50kg%20%40%20KSh%202%2C800)"
+             class="btn btn-primary" target="_blank" rel="noopener">Order Now on WhatsApp</a>
+          <a href="tel:+254718625691" class="btn btn-outline">📞 +254 718 625 691</a>
+        </div>
+        <div class="price-tag">
+          <div>
+            <div class="amount">KSh 2,800</div>
+            <span class="per">per 50kg bag</span>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <div class="save">Only KSh 56 / kg</div>
+            <span class="per">Bulk &amp; wholesale rates available</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-blob"></div>
+        <div class="float-badge b1">
+          <span class="fb-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3f6b1f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          </span>
+          100% Fresh Harvest
+        </div>
+        <div class="float-badge b2">
+          <span class="fb-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3f6b1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </span>
+          Countrywide Delivery
+        </div>
+        <svg class="stack" viewBox="0 0 480 400" xmlns="http://www.w3.org/2000/svg">
+          <use href="#leaf" x="10" y="10" width="76" height="120" transform="rotate(-28 48 70)"/>
+          <use href="#leaf" x="392" y="4" width="76" height="120" transform="rotate(26 430 64)"/>
+          <use href="#shangi2" x="120" y="50" width="240" height="180" transform="rotate(-8 240 140)"/>
+          <use href="#shangi" x="10" y="150" width="260" height="196" transform="rotate(6 140 248)"/>
+          <use href="#shangi2" x="220" y="158" width="250" height="188" transform="rotate(-4 345 252)"/>
+          <use href="#flower" x="378" y="70" width="72" height="72"/>
+          <ellipse cx="245" cy="368" rx="205" ry="22" fill="#3f6b1f" opacity=".12"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust">
+    <div class="wrap trust-grid">
+      <div class="trust-item"><strong>KSh 2,800</strong> per 50kg bag</div>
+      <div class="trust-item"><strong>Shangi Variety</strong> cream skin, white flesh</div>
+      <div class="trust-item"><strong>Nyandarua County</strong> 2,400m highland grown</div>
+      <div class="trust-item"><strong>+254 718 625 691</strong> call or WhatsApp</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Why Choose Us</div>
+        <h2>Farm‑Fresh Shangi, Every Single Bag</h2>
+        <p>We grow, harvest, grade and deliver — no middlemen, no long storage, no surprises.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-img">
+            <svg viewBox="0 0 340 260" width="100%"><use href="#shangi" width="340" height="260"/></svg>
+          </div>
+          <div class="card-body">
+            <h4>Hand‑Graded Quality</h4>
+            <p>Uniform medium‑to‑large tubers. No stones, no rotten pieces, no small rejects.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <svg viewBox="0 0 260 260" width="80%"><use href="#shangi-cut" width="260" height="260"/></svg>
+          </div>
+          <div class="card-body">
+            <h4>Creamy White Flesh</h4>
+            <p>High dry matter means perfect mashing, boiling and golden crispy chips.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <svg viewBox="0 0 280 330" width="70%"><use href="#sack" width="280" height="330"/></svg>
+          </div>
+          <div class="card-body">
+            <h4>The 50kg Bag — KSh 2,800</h4>
+            <p>Sealed, labelled and ready for delivery anywhere in Kenya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-band">
+    <div class="wrap cta-inner">
+      <h2>Ready to Order Your 50kg Bag?</h2>
+      <p>Fresh Shangi potatoes at KSh 2,800 per bag. Call or WhatsApp and we'll arrange delivery to your door.</p>
+      <div class="cta-actions">
+        <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20Shangi%20potatoes%20(50kg%20%40%20KSh%202%2C800)" class="btn btn-gold" target="_blank" rel="noopener">💬 WhatsApp Us Now</a>
+        <a href="tel:+254718625691" class="btn btn-outline" style="color:#fff;border-color:#fff;">📞 Call +254 718 625 691</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     PAGE: ABOUT
+============================================================ -->
+<div class="page" id="page-about">
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">The Variety</div>
+        <h2>Why Shangi Is Kenya's Favourite Potato</h2>
+        <p>Shangi accounts for over 70% of all potatoes grown in Kenya — and once you cook with it, you'll understand why.</p>
+      </div>
+
+      <div class="grid-2">
+        <div>
+          <div class="card" style="padding:26px;">
+            <svg viewBox="0 0 440 330" width="100%" xmlns="http://www.w3.org/2000/svg">
+              <use href="#shangi" x="10" y="40" width="280" height="210" transform="rotate(-6 150 145)"/>
+              <use href="#shangi-cut" x="250" y="76" width="180" height="180"/>
+              <text x="70" y="300" font-family="Poppins,Arial,sans-serif" font-size="13" font-weight="600" fill="#6b6b6b">Whole tuber</text>
+              <text x="292" y="300" font-family="Poppins,Arial,sans-serif" font-size="13" font-weight="600" fill="#6b6b6b">Cross‑section</text>
+            </svg>
+          </div>
+          <p style="text-align:center;font-size:.82rem;color:var(--muted);margin-top:14px;font-weight:500;">
+            Cream skin • Shallow pink eyes • Creamy white flesh
+          </p>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <span class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </span>
+            <div>
+              <h4>Perfect Cooking Texture</h4>
+              <p>Shangi holds its shape when boiled, mashes smooth and creamy, and fries to a golden crisp. One variety, every dish.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <span class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </span>
+            <div>
+              <h4>Volcanic Highland Soil</h4>
+              <p>Nyandarua's red volcanic loam and cool 2,400m climate produce dense, flavourful tubers with high dry matter.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <span class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </span>
+            <div>
+              <h4>Fresh, Not Stored</h4>
+              <p>We harvest to order. Your potatoes arrive within days of leaving the soil — no long cold‑store stays, no sprouting.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <span class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+            </span>
+            <div>
+              <h4>Sorted &amp; Graded by Hand</h4>
+              <p>Every 50kg bag is hand‑sorted — uniform tubers, no stones, no rotten pieces, no surprises.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#fff;">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Shangi Facts</div>
+        <h2>The Variety at a Glance</h2>
+      </div>
+
+      <div class="grid-3">
+        <div class="card"><div class="card-body">
+          <h4>Skin &amp; Flesh</h4>
+          <p style="margin-top:8px;">Cream skin with shallow pink eyes. Creamy white flesh with high dry matter — ideal for mashing and chipping.</p>
+        </div></div>
+
+        <div class="card"><div class="card-body">
+          <h4>Maturity</h4>
+          <p style="margin-top:8px;">Around 90 days (early maturing). Very short dormancy, which means it moves quickly from farm to your kitchen.</p>
+        </div></div>
+
+        <div class="card"><div class="card-body">
+          <h4>Best Uses</h4>
+          <p style="margin-top:8px;">Boiling, mashing, roasting, chipping and crisping. Kenya's most versatile and most loved potato variety.</p>
+        </div></div>
+
+        <div class="card"><div class="card-body">
+          <h4>Typical Yield</h4>
+          <p style="margin-top:8px;">30–40 tonnes per hectare under good management — a strong, reliable producer for Nyandarua farmers.</p>
+        </div></div>
+
+        <div class="card"><div class="card-body">
+          <h4>Growing Altitude</h4>
+          <p style="margin-top:8px;">Thrives between 1,500 and 3,000 metres above sea level — exactly the range of the Nyandarua highlands.</p>
+        </div></div>
+
+        <div class="card"><div class="card-body">
+          <h4>Why Farmers Love It</h4>
+          <p style="margin-top:8px;">High market demand, short dormancy, and consistent yields make Shangi the backbone of Kenyan potato farming.</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-band">
+    <div class="wrap cta-inner">
+      <h2>Order Shangi Today</h2>
+      <p>50kg bag at KSh 2,800. Fresh from the Nyandarua highlands.</p>
+      <div class="cta-actions">
+        <a href="#pricing" data-link class="btn btn-gold">View Pricing</a>
+        <a href="tel:+254718625691" class="btn btn-outline" style="color:#fff;border-color:#fff;">📞 +254 718 625 691</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     PAGE: GALLERY
+============================================================ -->
+<div class="page" id="page-gallery">
+  <section style="background:linear-gradient(180deg,#f6f9ee,#fdf8ee);">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Gallery</div>
+        <h2>Our Shangi Potatoes Up Close</h2>
+        <p>From the farm rows of Nyandarua to the 50kg bag at your door.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-img"><svg viewBox="0 0 340 260" width="100%"><use href="#shangi" width="340" height="260"/></svg></div>
+          <div class="card-body"><h4>Freshly Harvested Shangi</h4><p>Cream skin with characteristic shallow pink eyes.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background:linear-gradient(150deg,#fdf6e4,#f7e9c8);"><svg viewBox="0 0 340 260" width="100%"><use href="#shangi2" width="340" height="260"/></svg></div>
+          <div class="card-body"><h4>Uniform Medium–Large Size</h4><p>Hand‑graded so every bag cooks evenly.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"><svg viewBox="0 0 260 260" width="80%"><use href="#shangi-cut" width="260" height="260"/></svg></div>
+          <div class="card-body"><h4>Creamy White Flesh</h4><p>High dry matter — ideal for mashing and chipping.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background:linear-gradient(150deg,#eef7e0,#dcecc4);"><svg viewBox="0 0 480 320" width="100%"><use href="#heap" width="480" height="320"/></svg></div>
+          <div class="card-body"><h4>A Full Harvest Heap</h4><p>Sorted, cleaned and ready for bagging.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background:linear-gradient(150deg,#f7efe0,#efe0c6);"><svg viewBox="0 0 280 330" width="72%"><use href="#sack" width="280" height="330"/></svg></div>
+          <div class="card-body"><h4>The 50kg Bag — KSh 2,800</h4><p>Sealed, labelled and ready for delivery.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background:linear-gradient(150deg,#eef7e0,#e0eecb);"><svg viewBox="0 0 460 300" width="100%"><use href="#farm" width="460" height="300"/></svg></div>
+          <div class="card-body"><h4>Grown on Our Nyandarua Farm</h4><p>Healthy vines, highland climate, honest farming.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background:linear-gradient(150deg,#fbf4e6,#f3e6cd);"><svg viewBox="0 0 300 240" width="90%"><use href="#chips" width="300" height="240"/></svg></div>
+          <div class="card-body"><h4>Perfect Golden Chips</h4><p>Fries crisp without going soggy — Shangi's signature.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"><svg viewBox="0 0 300 240" width="90%"><use href="#mash" width="300" height="240"/></svg></div>
+          <div class="card-body"><h4>Smooth Creamy Mash</h4><p>Mashes without lumps — a family favourite.</p></div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background:linear-gradient(150deg,#f7efe0,#efe0c6);"><svg viewBox="0 0 300 220" width="100%"><use href="#graded" width="300" height="220"/></svg></div>
+          <div class="card-body"><h4>Washed &amp; Graded</h4><p>Cleaned and sorted before every single delivery.</p></div>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:44px;">
+        <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20Shangi%20potatoes%20(50kg%20%40%20KSh%202%2C800)" class="btn btn-primary" target="_blank" rel="noopener">💬 Order Your Bag Now</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     PAGE: PRICING
+============================================================ -->
+<div class="page" id="page-pricing">
+  <section class="pricing">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Pricing</div>
+        <h2>Straight Farm Prices, No Middlemen</h2>
+        <p>Buying direct from Nyandarua means fresher potatoes and a better price.</p>
+      </div>
+
+      <div class="price-cards">
+        <div class="p-card">
+          <div class="p-name">Trial Pack</div>
+          <p class="p-desc">Try our Shangi before you commit to bulk.</p>
+          <div class="p-price"><sup>KSh</sup>1,500</div>
+          <div class="p-unit">per 25kg bag</div>
+          <ul class="p-features">
+            <li><span class="check">✓</span> Hand‑sorted medium tubers</li>
+            <li><span class="check">✓</span> Same‑week harvest</li>
+            <li><span class="check">✓</span> Pickup in Nyandarua</li>
+          </ul>
+          <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20the%2025kg%20Trial%20Pack%20(KSh%201%2C500)" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.5);" target="_blank" rel="noopener">Order Trial Pack</a>
+        </div>
+
+        <div class="p-card featured">
+          <span class="p-badge">Most Popular</span>
+          <div class="p-name">Standard 50kg Bag</div>
+          <p class="p-desc">Our best value — the everyday choice for homes, shops and hotels.</p>
+          <div class="p-price"><sup>KSh</sup>2,800</div>
+          <div class="p-unit">per 50kg bag · KSh 56/kg</div>
+          <ul class="p-features">
+            <li><span class="check">✓</span> Premium hand‑graded Shangi</li>
+            <li><span class="check">✓</span> Cream skin, creamy white flesh</li>
+            <li><span class="check">✓</span> Delivery arranged countrywide</li>
+            <li><span class="check">✓</span> Pay on delivery (within Nyandarua)</li>
+          </ul>
+          <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20the%2050kg%20Standard%20Bag%20(KSh%202%2C800)" class="btn btn-gold" target="_blank" rel="noopener">Order 50kg Bag</a>
+        </div>
+
+        <div class="p-card">
+          <div class="p-name">Wholesale</div>
+          <p class="p-desc">For hotels, schools, groceries and market traders.</p>
+          <div class="p-price"><sup>KSh</sup>2,650</div>
+          <div class="p-unit">per 50kg bag · 10+ bags</div>
+          <ul class="p-features">
+            <li><span class="check">✓</span> Discounted bulk rate</li>
+            <li><span class="check">✓</span> Scheduled repeat deliveries</li>
+            <li><span class="check">✓</span> Dedicated account contact</li>
+            <li><span class="check">✓</span> Custom grading on request</li>
+          </ul>
+          <a href="https://wa.me/254718625691?text=Hello%2C%20I%20am%20interested%20in%20wholesale%20pricing%20for%2010%2B%20bags" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.5);" target="_blank" rel="noopener">Request Wholesale Quote</a>
+        </div>
+      </div>
+
+      <p class="price-note">📞 Call or WhatsApp <strong>+254 718 625 691</strong> for delivery charges to your town.</p>
+    </div>
+  </section>
+
+  <section style="background:#fff;">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Delivery</div>
+        <h2>Where We Deliver</h2>
+        <p>We arrange transport to most major towns in Kenya.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card"><div class="card-body"><h4>Nyandarua &amp; Surrounds</h4><p style="margin-top:8px;">Ol Kalou, Engineer, Nyahururu, Mairo Inya, Kasuku — fast, low‑cost delivery.</p></div></div>
+        <div class="card"><div class="card-body"><h4>Central &amp; Rift Valley</h4><p style="margin-top:8px;">Nairobi, Nakuru, Naivasha, Nyeri, Kiambu, Laikipia, Kericho, Bomet.</p></div></div>
+        <div class="card"><div class="card-body"><h4>Countrywide</h4><p style="margin-top:8px;">We arrange courier or matatu parcel services to any town in Kenya at your cost.</p></div></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     PAGE: REVIEWS
+============================================================ -->
+<div class="page" id="page-reviews">
+  <section class="reviews">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Customer Reviews</div>
+        <h2>What Our Customers Say</h2>
+      </div>
+
+      <div class="review-summary">
+        <div class="score">4.9</div>
+        <div>
+          <div class="stars">★★★★★</div>
+          <div class="meta">Based on 127 verified customer reviews</div>
+        </div>
+      </div>
+
+      <div class="review-grid">
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"I run a hotel in Nakuru and have been buying Shangi from Nyandarua for two years. This supplier is the most consistent — the potatoes are always clean, well graded and my chips come out perfect every time."</p>
+          <div class="reviewer"><span class="avatar a1">GW</span><div class="reviewer-info"><strong>Grace Wanjiru</strong><span>Hotel Owner · Nakuru</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"Ordered 5 bags on a Monday and they were in Nairobi by Wednesday. No rotten pieces, no stones. The weight was correct to the kilo. Very honest people to do business with."</p>
+          <div class="reviewer"><span class="avatar a2">PK</span><div class="reviewer-info"><strong>Peter Kamau</strong><span>Grocer · Nairobi</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"The Shangi mashes so smoothly — my children actually ask for mashed potatoes now. And at KSh 2,800 for 50kg, it's cheaper than buying small amounts at the market every week."</p>
+          <div class="reviewer"><span class="avatar a3">MN</span><div class="reviewer-info"><strong>Mary Njeri</strong><span>Homemaker · Naivasha</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"I buy 20 bags a month for our school kitchen. Delivery is always on time and the quality never drops. They even helped me arrange transport when I had an emergency order."</p>
+          <div class="reviewer"><span class="avatar a4">JM</span><div class="reviewer-info"><strong>Joseph Mwangi</strong><span>School Caterer · Nyahururu</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"You can tell these are fresh — they last three weeks in my store without sprouting. I used to lose money on potatoes that went bad. Not anymore."</p>
+          <div class="reviewer"><span class="avatar a5">EW</span><div class="reviewer-info"><strong>Esther Wambui</strong><span>Market Trader · Ol Kalou</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"Called the number on Sunday evening and had my bag delivered to Engineer by Monday lunchtime. Friendly service and the potatoes were genuinely fresh from the shamba."</p>
+          <div class="reviewer"><span class="avatar a6">SK</span><div class="reviewer-info"><strong>Samuel Kariuki</strong><span>Restaurant Owner · Engineer</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"The grading is what sets them apart. Every potato in the bag is a usable size — no waste. My food cost per plate dropped noticeably."</p>
+          <div class="reviewer"><span class="avatar a1">AN</span><div class="reviewer-info"><strong>Alice Nyambura</strong><span>Caterer · Nyeri</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"We tested several suppliers before settling here. Their Shangi has the best chip colour and the least oil absorption. Highly recommended for crisp makers."</p>
+          <div class="reviewer"><span class="avatar a2">DO</span><div class="reviewer-info"><strong>David Ochieng</strong><span>Crisp Producer · Thika</span></div></div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"Straightforward people. You call, you order, the potatoes arrive. No drama, no excuses. That's rare in this business."</p>
+          <div class="reviewer"><span class="avatar a3">LM</span><div class="reviewer-info"><strong>Lucy Muthoni</strong><span>Grocer · Nakuru</span></div></div>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:44px;">
+        <a href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20Shangi%20potatoes%20(50kg%20%40%20KSh%202%2C800)" class="btn btn-primary" target="_blank" rel="noopener">💬 Become Our Next Happy Customer</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     PAGE: CONTACT
+============================================================ -->
+<div class="page" id="page-contact">
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Where We Are</div>
+        <h2>Nyandarua County, Kenya</h2>
+        <p>One of Kenya's leading potato‑producing counties — and the perfect place to grow Shangi.</p>
+      </div>
+
+      <div class="loc-grid">
+        <div class="loc-card">
+          <ul class="loc-list">
+            <li>
+              <span class="loc-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div><h4>Farm Location</h4><p>Nyandarua County, Central Highlands, Kenya<br>Altitude approx. 2,400m above sea level</p></div>
+            </li>
+            <li>
+              <span class="loc-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div><h4>Opening Hours</h4><p>Monday – Saturday: 7:00am – 7:00pm<br>Sunday: 9:00am – 4:00pm</p></div>
+            </li>
+            <li>
+              <span class="loc-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg></span>
+              <div><h4>Call or WhatsApp</h4><p><a href="tel:+254718625691">+254 718 625 691</a></p></div>
+            </li>
+            <li>
+              <span class="loc-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>
+              <div><h4>Delivery Coverage</h4><p>Nyandarua, Nairobi, Nakuru, Laikipia, Nyeri, Kiambu &amp; countrywide by arrangement.</p></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="map-box">
+          <svg viewBox="0 0 460 400" width="100%" xmlns="http://www.w3.org/2000/svg">
+            <rect width="460" height="400" fill="#eef5e0"/>
+            <path d="M0,240 C80,200 150,260 230,230 C310,200 380,250 460,215 L460,400 L0,400 Z" fill="#dcecc4"/>
+            <path d="M0,120 C70,90 140,140 210,110 C280,80 360,130 460,95 L460,240 C380,275 310,225 230,255 C150,285 80,225 0,265 Z" fill="#e4f0d0"/>
+            <path d="M60,180 L110,110 L160,180 Z" fill="#bcd99a" opacity=".8"/>
+            <path d="M120,190 L175,105 L235,190 Z" fill="#a8cd82" opacity=".85"/>
+            <path d="M200,180 L250,120 L305,180 Z" fill="#bcd99a" opacity=".75"/>
+            <path d="M20,330 C120,300 200,320 300,280 C370,252 420,265 460,250" stroke="#c9b98f" stroke-width="7" fill="none" stroke-linecap="round"/>
+            <path d="M230,400 C240,340 250,300 265,240 C280,185 300,150 330,100" stroke="#d5c7a1" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="12 9"/>
+            <g transform="translate(228,158)">
+              <ellipse cx="0" cy="52" rx="26" ry="8" fill="#3f6b1f" opacity=".2"/>
+              <path d="M0,50 C0,50 -26,22 -26,0 A26,26 0 0,1 26,0 C26,22 0,50 0,50 Z" fill="#3f6b1f"/>
+              <circle cx="0" cy="0" r="11" fill="#fdf8ee"/>
+              <ellipse cx="0" cy="0" rx="5.5" ry="4" fill="#e0a800"/>
+            </g>
+            <text x="228" y="240" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="15" font-weight="800" fill="#2d5016">NYANDARUA</text>
+            <text x="228" y="258" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-size="11" font-weight="600" fill="#6b8a4a">COUNTY, KENYA</text>
+            <text x="80" y="330" font-family="Poppins,Arial,sans-serif" font-size="10" font-weight="600" fill="#8a7a5a">Ol Kalou</text>
+            <text x="300" y="300" font-family="Poppins,Arial,sans-serif" font-size="10" font-weight="600" fill="#8a7a5a">Engineer</text>
+            <text x="345" y="115" font-family="Poppins,Arial,sans-serif" font-size="10" font-weight="600" fill="#8a7a5a">Nyahururu</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Get In Touch</div>
+        <h2>Place Your Order Today</h2>
+        <p>We respond to every enquiry — usually within the hour during working hours.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="c-item">
+            <span class="c-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg></span>
+            <div><h4>Phone / WhatsApp</h4><a href="tel:+254718625691">+254 718 625 691</a></div>
+          </div>
+
+          <div class="c-item">
+            <span class="c-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><h4>Location</h4><p>Nyandarua County, Kenya</p></div>
+          </div>
+
+          <div class="c-item">
+            <span class="c-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <div><h4>Business Hours</h4><p>Mon – Sat: 7:00am – 7:00pm<br>Sun: 9:00am – 4:00pm</p></div>
+          </div>
+
+          <div class="c-item">
+            <span class="c-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg></span>
+            <div><h4>Price</h4><p>50kg bag — <strong>KSh 2,800</strong></p></div>
+          </div>
+        </div>
+
+        <form id="orderForm">
+          <div class="form-row">
+            <div class="field"><label for="name">Your Name</label><input type="text" id="name" placeholder="e.g. Grace Wanjiru" required></div>
+            <div class="field"><label for="phone">Phone Number</label><input type="tel" id="phone" placeholder="e.g. 0712 345 678" required></div>
+          </div>
+
+          <div class="form-row">
+            <div class="field"><label for="town">Delivery Town</label><input type="text" id="town" placeholder="e.g. Nairobi, Nakuru" required></div>
+            <div class="field"><label for="qty">Quantity</label>
+              <select id="qty">
+                <option>1 bag (50kg) — KSh 2,800</option>
+                <option>2–5 bags (50kg each)</option>
+                <option>6–9 bags (50kg each)</option>
+                <option>10+ bags (wholesale)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field"><label for="msg">Message (optional)</label><textarea id="msg" placeholder="Any special instructions, preferred delivery day, etc."></textarea></div>
+
+          <button type="submit" class="btn btn-primary">Send Order on WhatsApp →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <span class="logo-mark" style="width:38px;height:38px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <ellipse cx="12" cy="13" rx="8.5" ry="6.2" fill="#e0a800"/>
+              <ellipse cx="9.4" cy="11.2" rx="1.6" ry="1.2" fill="#c98a7e"/>
+              <ellipse cx="14.6" cy="14.6" rx="1.4" ry="1" fill="#c98a7e"/>
+            </svg>
+          </span>
+          <span>Nyandarua Fresh Potatoes</span>
+        </div>
+        <p>Premium Shangi potatoes grown in the highlands of Nyandarua County, Kenya. Farm‑fresh, hand‑sorted and delivered countrywide.</p>
+      </div>
+
+      <div>
+        <h5>Pages</h5>
+        <ul>
+          <li><a href="#home" data-link>Home</a></li>
+          <li><a href="#about" data-link>About Shangi</a></li>
+          <li><a href="#gallery" data-link>Gallery</a></li>
+          <li><a href="#pricing" data-link>Pricing</a></li>
+          <li><a href="#reviews" data-link>Reviews</a></li>
+          <li><a href="#contact" data-link>Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Products</h5>
+        <ul>
+          <li><a href="#pricing" data-link>Shangi 50kg — KSh 2,800</a></li>
+          <li><a href="#pricing" data-link>Shangi 25kg — KSh 1,500</a></li>
+          <li><a href="#pricing" data-link>Wholesale (10+ bags)</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+254718625691">📞 +254 718 625 691</a></li>
+          <li><a href="https://wa.me/254718625691" target="_blank" rel="noopener">💬 WhatsApp Us</a></li>
+          <li>📍 Nyandarua County, Kenya</li>
+          <li>🕐 Mon–Sat 7am–7pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>© <span id="yr"></span> Nyandarua Fresh Potatoes. All rights reserved.</span>
+      <span>Grown with pride in Nyandarua County 🇰🇪</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/254718625691?text=Hello%2C%20I%20want%20to%20order%20Shangi%20potatoes%20(50kg%20%40%20KSh%202%2C800)" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff">
+    <path d="M17.5 14.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.2 2.9c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3z"/>
+    <path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.2-1.3c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3c-.8-1.3-1.3-2.9-1.3-4.4C3.5 7.3 7.3 3.5 12 3.5S20.5 7.3 20.5 12 16.7 20.2 12 20.2z"/>
+  </svg>
+</a>
+
+<script>
+(function(){
+  'use strict';
+
+  /* ---------- FOOTER YEAR ---------- */
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  /* ---------- ELEMENTS ---------- */
+  var burger     = document.getElementById('burger');
+  var mobileMenu = document.getElementById('mobileMenu');
+  var mmClose    = document.getElementById('mmClose');
+  var allLinks   = document.querySelectorAll('[data-link]');
+  var deskLinks  = document.querySelectorAll('#deskNav a');
+  var mobLinks   = document.querySelectorAll('#mobNav a');
+
+  /* ---------- OPEN / CLOSE MENU ---------- */
+  function openMenu(){
+    mobileMenu.classList.add('open');
+    burger.classList.add('open');
+    burger.setAttribute('aria-expanded','true');
+    document.body.classList.add('locked');
+  }
+  function closeMenu(){
+    mobileMenu.classList.remove('open');
+    burger.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+    document.body.classList.remove('locked');
+  }
+
+  burger.addEventListener('click', function(){
+    mobileMenu.classList.contains('open') ? closeMenu() : openMenu();
+  });
+  mmClose.addEventListener('click', closeMenu);
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeMenu();
+  });
+
+  /* ---------- PAGE ROUTER ---------- */
+  var VALID = ['home','about','gallery','pricing','reviews','contact'];
+
+  function showPage(name){
+    if(VALID.indexOf(name) === -1) name = 'home';
+
+    var pages = document.querySelectorAll('.page');
+    for(var i = 0; i < pages.length; i++){
+      pages[i].classList.remove('active');
+    }
+    var target = document.getElementById('page-' + name);
+    if(target) target.classList.add('active');
+
+    /* highlight active nav links */
+    deskLinks.forEach(function(a){
+      a.classList.toggle('active', a.getAttribute('href') === '#' + name);
+    });
+    mobLinks.forEach(function(a){
+      a.classList.toggle('active', a.getAttribute('href') === '#' + name);
+    });
+
+    /* update document title */
+    var titles = {
+      home:'Nyandarua Fresh Potatoes | Shangi Variety — 50kg @ KSh 2,800',
+      about:'About Shangi Potatoes | Nyandarua Fresh Potatoes',
+      gallery:'Shangi Potato Gallery | Nyandarua Fresh Potatoes',
+      pricing:'Pricing — 50kg @ KSh 2,800 | Nyandarua Fresh Potatoes',
+      reviews:'Customer Reviews | Nyandarua Fresh Potatoes',
+      contact:'Contact & Location | Nyandarua Fresh Potatoes'
+    };
+    document.title = titles[name] || titles.home;
+
+    window.scrollTo({ top:0, behavior:'instant' in window ? 'instant' : 'auto' });
+  }
+
+  function route(){
+    var hash = window.location.hash.replace('#','') || 'home';
+    showPage(hash);
+    closeMenu();
+  }
+
+  /* ---------- LINK HANDLING ---------- */
+  allLinks.forEach(function(link){
+    link.addEventListener('click', function(e){
+      var href = link.getAttribute('href');
+      if(!href || href.charAt(0) !== '#') return;   /* external links pass through */
+      e.preventDefault();
+      var name = href.slice(1);
+
+      /* close menu first, then navigate so the transition is clean */
+      closeMenu();
+
+      if(window.location.hash === href){
+        showPage(name);
+      } else {
+        window.location.hash = href;
+      }
+    });
+  });
+
+  window.addEventListener('hashchange', route);
+
+  /* ---------- INITIAL LOAD ---------- */
+  route();
+
+  /* ---------- ORDER FORM → WHATSAPP ---------- */
+  var form = document.getElementById('orderForm');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+
+      var name  = document.getElementById('name').value.trim();
+      var phone = document.getElementById('phone').value.trim();
+      var town  = document.getElementById('town').value.trim();
+      var qty   = document.getElementById('qty').value;
+      var msg   = document.getElementById('msg').value.trim();
+
+      if(!name || !phone || !town){
+        alert('Please fill in your name, phone number and delivery town.');
+        return;
+      }
+
+      var text =
+        '*New Potato Order — Nyandarua Fresh Potatoes*%0A%0A' +
+        '*Name:* ' + encodeURIComponent(name) + '%0A' +
+        '*Phone:* ' + encodeURIComponent(phone) + '%0A' +
+        '*Delivery Town:* ' + encodeURIComponent(town) + '%0A' +
+        '*Quantity:* ' + encodeURIComponent(qty) + '%0A' +
+        (msg ? '*Message:* ' + encodeURIComponent(msg) + '%0A' : '') +
+        '%0APlease confirm availability and delivery cost. Thank you!';
+
+      window.open('https://wa.me/254718625691?text=' + text, '_blank');
+    });
+  }
+
+})();
+</script>
+
+</body>
+</html>
